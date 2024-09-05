@@ -5,7 +5,7 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop: true
 });
-
+https://github.com/Dantico12/dantic0-portifolio-
 // main.js
 function handleClientLoad() {
     gapi.load('client:auth2', initClient);
@@ -14,7 +14,7 @@ function handleClientLoad() {
   function initClient() {
     gapi.client.init({
       apiKey: 'YOUR_ACTUAL_API_KEY', // Replace with your actual API key
-      clientId: '', // Replace with your actual Client ID
+      clientId: '129044429989-7f8ukg03bf1roc2ulpkdsacbia0mc6qp.apps.googleusercontent.com', // Replace with your actual Client ID
       discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest'],
       scope: 'https://www.googleapis.com/auth/gmail.readonly'
     }).then(function () {
